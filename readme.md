@@ -40,8 +40,8 @@ The App provides  detailed hourly and weekly weather forecast for current user l
         - Open keys.plist and add '+' a new key **_DarkSkyApi_** from the Root of the dictionary.
         - set the key type to String.
         - fill the value with the Secret Key from darkSky.net
-        - Add a 2nd key **_GoogleApi_** of type String and fill the value with api key from **_Google Places API Web Service_**
-        - Add a 3rd key **_GoogleApiByID_** of type String and fill the value with api key from **_googleGeoCoding_**
+        - Add a 2nd key **_GoogleApi_** of type String and fill the value with api key from ** _Google Places API Web Service_ **
+        - Add a 3rd key **_GoogleApiByID_** of type String and fill the value with api key from ** _googleGeoCoding_ **
         - Now the project is ready to be compiled and run.
     
 
