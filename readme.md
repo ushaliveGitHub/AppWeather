@@ -21,7 +21,7 @@ The App provides  detailed hourly and weekly weather forecast for current user l
     - Google will prompt you to register your project name. For example you can call it "MyWeatherApp".
     - Google will provide you with a "KEY" . Save or write down the Key. Please do not share your key with anyone.
     
-5.   **To _get a KEY_** from Google Places API Web Service , follow  instructions below.
+5.  **To _get a KEY_** from Google Places API Web Service , follow  instructions below.
    
     - Go to https://developers.google.com/places/web-service/get-api-key and click on **_get a KEY_**.
     - Google will prompt you to register the project name. You can choose "MyWeatherApp" from the list (you already created).
@@ -31,18 +31,19 @@ The App provides  detailed hourly and weekly weather forecast for current user l
 ## To Run this app in Xcode    
 
 1. Clone or download this repository.
+
 2. Create a new property list file called **_keys.plist_**. Follow step by step instructions below to create the file. Its very important to get all the api keys and create the property list dictionary with exactly the same key names as listed.
 
-        - Open the project in XCode. 
-        - Access XCode menu File->New->File.
-        - Select file type as 'property list' from the template list.
-        - Name the file  **_keys.plist_** 
-        - Open keys.plist and add '+' a new key **_DarkSkyApi_** from the Root of the dictionary.
-        - set the key type to String.
-        - fill the value with the Secret Key from darkSky.net
-        - Add a 2nd key **_GoogleApi_** of type String and fill the value with api key from ** _Google Places API Web Service_ **
-        - Add a 3rd key **_GoogleApiByID_** of type String and fill the value with api key from ** _googleGeoCoding_ **
-        - Now the project is ready to be compiled and run.
+    - Open the project in XCode. 
+    - Access XCode menu File->New->File.
+    - Select file type as 'property list' from the template list.
+    - Name the file  **_keys.plist_** 
+    - Open keys.plist and add '+' a new key **_DarkSkyApi_** from the Root of the dictionary.
+    - set the key type to String.
+    - fill the value with the Secret Key from darkSky.net
+    - Add a 2nd key **_GoogleApi_** of type String and fill the value with api key from **_Google Places API Web Service_**
+    - Add a 3rd key **_GoogleApiByID_** of type String and fill the value with api key from **_googleGeoCoding_**
+    - Now the project is ready to be compiled and run.
     
 
 ## Versioning
