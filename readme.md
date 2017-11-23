@@ -2,7 +2,7 @@
 
 ## Overview
 
-The App provides  detailed hourly and weekly weather forecast for current user location. The App can also provide forecast for any city/town in the world by allowing using to search and add '+' a new weather location.
+The App provides  detailed hourly and weekly weather forecast for current user location. The App can also provide forecast for any city/town in the world by allowing user to search and add '+' a new weather location.
 
 ## Prerequisites
 
@@ -17,16 +17,15 @@ The App provides  detailed hourly and weekly weather forecast for current user l
 4. **To _get a KEY_** from googleGeoCoding , follow  instructions below.
 
     - Go to https://developers.google.com/maps/documentation/geocoding/get-api-key and click on **_get a KEY_**.
-    - If you don't have google account you may have to create one.
-    - Google will prompt you to register your project name. For example you can call it "WeatherApp".
-    - Google will provide you with a "KEY" . save or write down the Key. Please do not share your key with anyone.
+    - If you don't have a google account you may have to create one.
+    - Google will prompt you to register your project name. For example you can call it "MyWeatherApp".
+    - Google will provide you with a "KEY" . Save or write down the Key. Please do not share your key with anyone.
     
 5.   **To _get a KEY_** from Google Places API Web Service , follow  instructions below.
    
     - Go to https://developers.google.com/places/web-service/get-api-key and click on **_get a KEY_**.
-    - If you don't have google account you may have to create one.
-    - Google will prompt you to register your project name. You can choose "WeatherApp" from the list (you already created).
-    - Google will provide you with a "KEY" . save or write down the Key. Please do not share your key with anyone.   
+    - Google will prompt you to register the project name. You can choose "MyWeatherApp" from the list (you already created).
+    - Google will provide you with a "KEY" . Save or write down the Key. Please do not share your key with anyone.   
     
     
 ## To Run this app in Xcode    
@@ -34,7 +33,7 @@ The App provides  detailed hourly and weekly weather forecast for current user l
 1. Clone or download this repository.
 2. Create a new property list file called **_keys.plist_**. Follow step by step instructions below to create the file. Its very important to get all the api keys and create the property list dictionary with exactly the same key names as listed.
 
-        - Open WeatherForecast project in xcode. 
+        - Open the project in XCode. 
         - Access XCode menu File->New->File.
         - Select file type as 'property list' from the template list.
         - Name the file  **_keys.plist_** 
@@ -66,7 +65,7 @@ SOFTWARE.
 
 ## Acknowledgments
 
-* Inspiration  - The weather channel app
+* Inspiration  - The weather channel App
 * Weather Api Source - darkSky
 * Julien Colin - for Date Time Formatting
 * Ashley Mills - for network reachability
