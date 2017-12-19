@@ -4,6 +4,8 @@
 
 The App provides  detailed hourly and weekly weather forecast for current user location. The App can also provide forecast for any city/town in the world by allowing user to search and add '+' a new weather location.
 
+![alt text](screenshots/weatherForecastScrGrab.png "weatherForecast")
+
 ## Prerequisites
 
 1. Xcode 8.0 (iOS 10.0) or later
